@@ -31,6 +31,10 @@ const ExperienceCard=({experience})=>(
     style={{margin:0}}">
       {experience.company_name}
     </p>
+    <p className="text-secondary text-[10px] font-semibold
+    style={{margin:0}}">
+      {experience.title}
+    </p>
   </div>
   <ul className="mt-5 list-disc ml-5 space-y-2">
     {experience.points.map((point,index)=>(

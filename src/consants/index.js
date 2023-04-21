@@ -150,7 +150,7 @@ import {
       title: "Open Source Contributor",
       company_name: "HacktoberFest",
       icon: HacktoberFest,
-      iconBg: "#383E56",
+      iconBg: "#E6DEDD",
       date: "October 2022 - October 2022",
       points: [
         "Participated in the biggest open-source tech-fest",
@@ -178,7 +178,7 @@ import {
       title: "Web Developement Intern",
       company_name: "IIC-IEM",
       icon: iic,
-      iconBg: "#383E56",
+      iconBg: "#E6DEDD",
       date: "Nov 2022 - May 2023",
       points: [
         "Learned Hands-On development guided by developers",
@@ -213,7 +213,7 @@ import {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Mriganka does.",
       name: "Supratim Majumder",
-      designation: "Dveloper",
+      designation: "Developer",
       company: "Cisco",
     },
     {
