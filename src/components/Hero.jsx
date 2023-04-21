@@ -9,21 +9,21 @@ const Hero = () => {
       inset-0 top-[120px] max-w-7xl mx-auto flex
       flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
+          <div className='w-5 h-5 rounded-full bg-[#DFFF00]'/>
           <div className='w-1 sm:h-80 h-40 violet-gradient'/>
         </div>
 
          <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Mriganka</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#DFFF00]">Mriganka</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           I'm an Aspiring Full-Stack Developer<br className='sm:block hidden'/>and I love to code and 
           design web-applications
           </p>
           </div>
           </div>
+          <div className="h-12 bg-yellow-600"></div>
           <ComputersCanvas/>
-          
-          <div className='absolute xs:bottom-10 bottom-32 
+          <div className='absolute top-[705px] xs:bottom-10 bottom-32 
           w-full flex justify-center items-center'>
             <a href="#about">
               <div className='w-[35px] h-[64px] rounded-3xl border-4 
